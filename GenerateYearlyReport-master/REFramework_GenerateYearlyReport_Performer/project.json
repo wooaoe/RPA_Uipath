@@ -1,0 +1,36 @@
+{
+  "name": "REFramework_GenerateYearlyReport_Performer",
+  "description": "Level 3 Advance Training Assingment no.2 Part 2",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
+    "UiPath.Excel.Activities": "[2.7.1-ce]",
+    "UiPath.Mail.Activities": "[1.7.1-ce]",
+    "UiPath.System.Activities": "[19.10.0-ce]",
+    "UiPath.UIAutomation.Activities": "[19.10.0-ce]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.10.0.361",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    }
+  },
+  "expressionLanguage": "VisualBasic"
+}
